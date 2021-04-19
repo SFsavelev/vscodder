@@ -79,3 +79,26 @@ alert(String(c).length);
 let qw = 1234;
 let er = 567890;
 alert(String(qw).length + String(er).length);
+//
+alert(true + 4);
+alert(false - 6);
+alert(true + true);
+alert(true - false);
+alert('1' + true);
+alert(String(true) + 1);
+alert(String(true) + Number(true));
+//Заметка:
+/*Преобразование к логическому типу осуществляется с помощью
+функции Boolean.
+Вот значения, которые при приведению к логическому типу дают
+false: 0, -0, +0, null, false, NaN, undefined, '' (пустая строка).
+Все остальные значения в JavaScript (в других языках бывает не так)
+дают true.
+Вот значения, приводящиеся к true, но могущие вызвать у вас сомнения:
+-1, Infinity, -Infinity.
+Следующие значения являются строками, так как взяты в кавычки, и
+также приводятся к true: '0', 'false', 'NaN', 'null', 'undefined'.
+*/
+//Строки в JavaScript (в отличие, например, от PHP) неизменяемы!!!
+//let str = 'abcde'; // строка
+//str[0] = '!'; // выдаст ошибку (в строгом режиме "use strict")
