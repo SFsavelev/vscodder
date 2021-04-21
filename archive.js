@@ -102,3 +102,16 @@ false: 0, -0, +0, null, false, NaN, undefined, '' (пустая строка).
 //Строки в JavaScript (в отличие, например, от PHP) неизменяемы!!!
 //let str = 'abcde'; // строка
 //str[0] = '!'; // выдаст ошибку (в строгом режиме "use strict")
+function drawCats(sas) {
+	for (let i = 0; i < sas; ++i) {
+		console.log(i + '=^..^=')
+	}
+};
+drawCats(10);
+//
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
