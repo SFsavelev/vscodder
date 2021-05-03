@@ -115,3 +115,18 @@ num -= 18;
 num *= 10;
 num /= 15;
 alert(num);
+//
+let name = prompt('you name?');
+alert('Ваше имя: ' + name + ' !');
+//
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Ввкдите второе число');
+alert(Number(num1) + Number(num2));
+//
+let storKvad = prompt("Длина стороны квадрата");
+let storKvad1 = prompt("Длина другой стороны квадрата");
+alert(storKvad * storKvad1 + " Площадь Квадрата");
+//
+let arr = [1, 2, 312];
+console.log(arr[arr.length - 2]);
+//
